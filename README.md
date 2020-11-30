@@ -13,15 +13,15 @@ Add specific class names to those elements you want to apply flex settings to.
 </div>
 ```
 ## Doc
-Every class name in `flex.css` is composed by a series of letters in the form of ***`I`***`flx-`***`DJAW`***, with each letter representing its corresponding flex settings. 
+Every class name in `flex.css` is composed by a series of letters in the form of ***`I`***`flex-`***`DJAW`***, with each letter representing its corresponding flex settings. 
 
 ||CSS rule
 |---|---
-|***`I`***|[display](###display)
-|***`D`***|[flex-direction](###flex-direction)
-|***`J`***|[justify-content](###justify-content)
-|***`A`***|[align-items](###align-items)
-|***`W`***|[wrap](###wrap)
+|***`I`***|[display](###-display)
+|***`D`***|[flex-direction](###-flex-direction)
+|***`J`***|[justify-content](###-justify-content)
+|***`A`***|[align-items](###-align-items)
+|***`W`***|[wrap](###-wrap)
 ### display
 
 |display:|letter|example
@@ -63,3 +63,8 @@ Every class name in `flex.css` is composed by a series of letters in the form of
 |nowrap|*empty*|flex-cfc
 |wrap|`w`|flex-cfc**w**
 |wrap-reverse|`r`|flex-cfc**r**
+
+## License
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2020, veringsek
