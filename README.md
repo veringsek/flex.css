@@ -13,7 +13,8 @@ Add specific class names to those elements you want to apply flex settings to.
 </div>
 ```
 ## Doc
-Every class name in `flex.css` is composed by a series of letters in the form of ***`I`***`flex-`***`DJAW`***, with each letter representing its corresponding flex settings. 
+### Flex Parent
+Every class name in `flex.css` is composed by a series of letters in the form of ***`I`***`flx-`***`DJAW`***, with each letter representing its corresponding flex settings. 
 
 ||CSS rule
 |---|---
@@ -22,47 +23,60 @@ Every class name in `flex.css` is composed by a series of letters in the form of
 |***`J`***|[justify-content](###-justify-content)
 |***`A`***|[align-items](###-align-items)
 |***`W`***|[wrap](###-wrap)
-### display
+#### display
 
 |display:|letter|example
 |---|---|---
-|flex|*empty*|**flex**-cfc
-|inline-flex|`i`|**iflex**-cfc
-### flex-direction
+|flex|*empty*|**flx**-cfc
+|inline-flex|`i`|**iflx**-cfc
+#### flex-direction
 
 |flex-direction:|letter|example|description
 |---|---|---|---
-|row|`r`|flex-**r**fc|right
-|column|`d`|flex-**d**fc|down
-|row-reverse|`l`|flex-**l**fc|left
-|column-reverse|`u`|flex-**u**fc|up
-### justify-content
+|row|`r`|flx-**r**fc|right
+|column|`d`|flx-**d**fc|down
+|row-reverse|`l`|flx-**l**fc|left
+|column-reverse|`u`|flx-**u**fc|up
+#### justify-content
 `f` for stretch (**f**ull).
 
 |justify-content:|letter|example
 |---|---|---
-|start|`s`|flex-c**s**c
-|center|`c`|flex-c**c**c
-|end|`e`|flex-c**e**c
-|stretch|`f`|flex-c**f**c
-|space-between|`b`|flex-c**b**c
-|space-around|`a`|flex-c**a**c
-### align-items
+|start|`s`|flx-c**s**c
+|center|`c`|flx-c**c**c
+|end|`e`|flx-c**e**c
+|stretch|`f`|flx-c**f**c
+|space-between|`b`|flx-c**b**c
+|space-around|`a`|flx-c**a**c
+#### align-items
 
 |align-items:|letter|example
 |---|---|---
-|start|`s`|flex-cf**s**
-|center|`c`|flex-cf**c**
-|end|`e`|flex-cf**e**
-|stretch|`f`|flex-cf**f**
-|baseline|`b`|flex-cf**b**
-### wrap
+|start|`s`|flx-cf**s**
+|center|`c`|flx-cf**c**
+|end|`e`|flx-cf**e**
+|stretch|`f`|flx-cf**f**
+|baseline|`b`|flx-cf**b**
+#### wrap
 
 |wrap:|letter|example
 |---|---|---
-|nowrap|*empty*|flex-cfc
-|wrap|`w`|flex-cfc**w**
-|wrap-reverse|`r`|flex-cfc**r**
+|nowrap|*empty*|flx-cfc
+|wrap|`w`|flx-cfc**w**
+|wrap-reverse|`r`|flx-cfc**r**
+### Flex Child
+Class names for flex children are composed by `flx-`***`G`***-***`K`***, where ***`G`*** represents flex-grow and ***`K`*** represents flex-shrink.
+|flex-grow|flex-shrink|class
+|---|---|---
+|1|1|flx-**1**-**1**
+|1|2|flx-**1**-**2**
+|2|1|flx-**2**-**1**
+|2|2|flx-**2**-**2**
+### Special
+|class|equivalent
+|---|---
+|`flx`|`flx-1-1`
+|`flx-`*`n`*|`flx-`*`n`*`-`*`n`*
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
